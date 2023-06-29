@@ -1,0 +1,63 @@
+/* -------------------------------- INICIO ELEMENTOS INDEX -------------------------------------- */
+
+.bg-main-item {
+
+    /* Imagen elegida */
+		background-image: url("../assets/img/consultoria-procesos-desarrollo-1-1024x540.jpg");
+	
+		/* Definir un alto específico */
+		width: 95%;
+		
+	
+		/* Crear el efecto parallax al scrollear */
+		background-position: center;
+		background-size:cover;
+		background-repeat: no-repeat;
+	
+		/* box modeling */
+		padding: 10% 1%;
+		margin-bottom: 2%;
+}
+
+//COMIENZO SECCION 1 - INDEX
+
+.bg-cuadro1 {
+    background-color: $colorCuadroGrisClaro;
+}
+
+.bg-texto1 {
+    color:$colorLetraCuadroGrisClaro;
+}
+
+.bg-texto-link {
+    color:$colorCelesteOrbis;
+    a {
+        text-decoration: none;
+    }
+}
+
+.bg-cuadro-comentario {
+    background-color: $colorCelesteOrbis;
+}
+
+.bg-cuadro-comentario-texto {
+    color: white;
+    font-weight: 50;
+    font-size: 170%;
+    width: 90%;
+	vertical-align: top;
+}
+
+.bg-desarrollo1 {
+    width: 102%;
+}
+
+.bg-desarrollo2 {
+	width: 32%;
+}
+
+.bg-desarrollo3 {
+	width: 30%;
+}
+
+/* -------------------------------- FIN ELEMENTOS INDEX -------------------------------------- */

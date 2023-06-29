@@ -1,0 +1,93 @@
+
+/* -------------------------------- INICIO BOTONES -------------------------------------- */
+
+//BOTONES INDEX
+/* BOTONES INDEX */
+
+.boton1-item {
+    h3 {
+        & a {
+            color: white;
+            font-family: $tipoLetraBotones;
+            text-decoration:none;
+            background-color: black;
+            padding: 15px 20px;
+            border-radius: 50px;
+            font-size: 70%;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.2);
+	            border:black 2px solid
+            }
+        }
+    }
+}
+
+.boton2-item {
+    h3 {
+        & a{
+            color: white;
+	        font-family: $tipoLetraBotones;
+	        text-decoration:none;
+	        background-color:$colorCelesteOrbis;
+	        padding: 10px 10px;
+	        border-radius: 50px;
+	        font-size: 70%;
+            &:hover {
+                background-color: rgba(0, 102, 255, 0.2);
+	            border:$colorCelesteOrbis 2px solid
+            }
+        }
+    }
+}
+
+//BOTONES DESARROLLO
+/* BOTONES DESARROLLO */
+
+.boton1-item-desarrollo {
+    h3 {
+        a {
+            color: white;
+	        font-family: $tipoLetraBotones;
+	        text-decoration:none;
+	        background-color: $colorCelesteOrbis;
+	        padding: 10px 30px;
+	        border-radius: 50px;
+	        font-size: 70%;
+            &:hover {
+                background-color: white;
+                border:$colorCelesteOrbis 2px solid;
+                color: $colorCelesteOrbis;
+            }
+        }
+    }
+}
+
+
+//BOTONES FOOTER
+/* BOTONES FOOTER */
+
+.boton_buscar {
+    width: 50%;
+}
+
+.boton1-item-search {
+    h3 {
+        a {
+            color: white;
+	        font-family: $tipoLetraBotones;
+	        text-decoration:none;
+	        background-color: $colorCelesteOrbis;
+	        padding: 10px 30px;
+	        border-radius: 10px;
+	        font-size: 60%;
+            &:hover {
+                background-color: transparent;
+                border:$colorCelesteOrbis 2px solid;
+                color: $colorCelesteOrbis;
+            }
+        }
+    }
+}
+
+/* -------------------------------- FIN BOTONES -------------------------------------- */

@@ -1,0 +1,26 @@
+/* -------------------------------- INICIO ELEMENTOS CONTACTO -------------------------------------- */
+
+.bg-main-contacto {
+
+    /* Imagen elegida */
+    background-image: url("../assets/img/contacto.jpg");
+
+    /* Definir un alto específico */
+    width: 95%;
+    
+
+    /* Crear el efecto parallax al scrollear */
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    /* box modeling */
+    padding: 10% 1%;
+    margin-bottom: 2%;
+}
+
+.bg-imagen-icono {
+    width: 100%;
+}
+
+/* -------------------------------- FIN ELEMENTOS CONTACTO -------------------------------------- */

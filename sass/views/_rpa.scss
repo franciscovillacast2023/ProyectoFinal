@@ -1,0 +1,40 @@
+/* -------------------------------- INICIO ELEMENTOS RPA -------------------------------------- */
+
+.bg-cuadro-rpa2-1 {
+	width: 40%;
+}
+
+.bg-cuadro-rpa2-2 {
+	width: 100%;
+}
+
+.bg-cuadro-rpa2-3 {
+	width: 200%;
+}
+
+.bg-cuadro-rpa2-4 {
+	width: 100%;
+}
+
+.bg-cuadro-rpa3 {
+	height: 100%;
+	width: 100%;
+	transition: 1500ms;
+	&:hover {
+		transform: scale(0.8);	
+	}
+}
+
+.bg-texto1-rpa {
+	color:black;
+}
+
+.bg-cuadro-rpa4 {
+	background-color: $colorCelesteOrbis;
+}
+
+.bg-rpa-fondo {
+	width: 100%;
+}
+
+/* -------------------------------- FIN ELEMENTOS RPA -------------------------------------- */

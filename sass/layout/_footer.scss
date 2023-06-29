@@ -1,0 +1,44 @@
+/* -------------------------------- INICIO ELEMETOS FOOTER -------------------------------------- */
+/* Configuracion cambio de color link footer */
+
+.bg-link-footer {
+    h5 {
+        font-weight: 300;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+	    font-size: 50px;
+        &:hover {
+            text-decoration: none;
+            color: $colorCelesteOrbis;
+        }
+    }
+
+}
+
+/* Configuracion cuadro final footer */
+.bg-cuadro-final{
+    text-align: center;
+}
+
+/* Configuracion imagen de fondo footer */
+.imagen_footer {
+    background-image: url(../assets/img/footer-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* Configuracion logo footer */
+.imagen_logo_footer {
+    background-repeat: no-repeat;
+    width: 30%;
+}
+
+/* Configuracion cuadro final */
+.cuadro-final-footer {
+	background-color: #0E0E54;
+}
+
+/* -------------------------------- FIN ELEMETOS FOOTER -------------------------------------- */

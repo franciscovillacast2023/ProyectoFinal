@@ -1,0 +1,17 @@
+# ignorar todos los archivos .scsss dentro de la carpeta sass
+#sass/**/*.scss
+
+# ignorar archivo map
+#sass/*.map
+
+# ignorar todos los archivos de los siguientes directorios
+#sass/componentes/
+#sass/layout/
+#sass/utilidades/
+#sass/views/
+
+
+
+
+
+

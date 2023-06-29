@@ -1,0 +1,26 @@
+/* -------------------------------- INICIO ELEMENTOS EMPLEO -------------------------------------- */
+
+.bg-main-empleos {
+
+    /* Imagen elegida */
+    background-image: url("../assets/img/empleos1.jpg");
+
+    /* Definir un alto específico */
+    width: 95%;
+    
+
+    /* Crear el efecto parallax al scrollear */
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+    /* box modeling */
+    padding: 10% 1%;
+    margin-bottom: 2%;
+}
+
+.bg-cuadro1-empleos {
+    width: 80%;
+}
+
+/* -------------------------------- FIN ELEMENTOS EMPLEO -------------------------------------- */

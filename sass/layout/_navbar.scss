@@ -1,0 +1,26 @@
+/* -------------------------------- INICIO NAVEGACION -------------------------------------- */
+
+.navbar-nav {
+    
+    a {
+        &:hover {
+            color: $colorLinkSeleccionado;
+        }
+    }
+
+    li {
+        ul {
+            border: white 2px solid;
+
+            a {
+                &:hover {
+                    color: $colorLetrasGrisClaro;
+                    background-color: white
+                }
+            }
+        }
+    }
+
+}
+
+/* -------------------------------- FIN NAVEGACION -------------------------------------- */
